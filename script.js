@@ -1,5 +1,5 @@
 const qna = [
-   {num:1,que:"¿Cuál es la forma correcta del pasado simple de 'swim'?",true:"swam",false1:"swimmed",false2:"swimed"},
+{num:1,que:"¿Cuál es la forma correcta del pasado simple de 'swim'?",true:"swam",false1:"swimmed",false2:"swimed"},
 {num:2,que:"¿Qué tiempo verbal se usa para acciones completadas en el pasado?",true:"Past simple",false1:"Present continuous",false2:"Future perfect"},
 {num:3,que:"¿Cuál es el plural de 'mouse' (ratón)?",true:"mice",false1:"mouses",false2:"mices"},
 {num:4,que:"¿Qué preposición se usa con 'arrive' para ciudades?",true:"in",false1:"on",false2:"at"},
@@ -1003,7 +1003,6 @@ const qna = [
 /* 
 
 */
-
 let currentQuestionIndex = 0;
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -1078,5 +1077,6 @@ function shuffleArray(array) {
 
 
 }
+
 
 
