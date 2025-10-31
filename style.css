@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    border: 0px;
+}
+.titlebox{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  justify-content: center;
+  text-align: center;
+}
+#workbox{
+  margin: 0;
+  padding: 0;
+  width: initial;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  justify-content: space-around;
+  text-align: center;
+}
+.questionbox{
+  display: flex;
+  margin-top: 100px;
+  width: auto;
+  height: auto;
+  background-color: blue;
+  justify-content: center;
+  text-align: center;
+}
+#question{
+font-size: 75px;
+color: white;
+}
+#choicesbox{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+#buttonbox{
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  margin-top: 150px;
+  width: auto;
+  height: auto;
+  padding: 100px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+button{
+  width: max-content;
+  height: max-content;
+  padding-inline: 150px;
+  padding-block:50px;
+  margin: 20px;
+  border: 1.5px solid;
+  border-radius: 1%;
+  font-size: 50px;
+  text-wrap: wrap;
+  text-align-last: center;
+}
